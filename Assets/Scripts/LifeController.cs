@@ -29,8 +29,5 @@ public class LifeController : MonoBehaviour
         return health;
     }
 
-    void Update()
-    {
 
-    }
 }
