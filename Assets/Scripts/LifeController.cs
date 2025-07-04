@@ -15,7 +15,7 @@ public class LifeController : MonoBehaviour
     void Start()
     {
         health = maxHealth;
-        slider.maxValue =maxHealth;
+        slider.maxValue = maxHealth;
         slider.value = health;
         fill.color = Gradient.Evaluate(2f);
 
